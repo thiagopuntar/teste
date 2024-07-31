@@ -1,0 +1,25 @@
+.values {
+  max-width: 1154px;
+  margin: 0 auto;
+}
+
+.values__title {
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.values__text {
+  font-size: 24px;
+  line-height: 1.65;
+  letter-spacing: 0.2px;
+  text-align: center;
+}
+
+@media (max-width: 1200px) {
+  .values__text {
+    max-width: 852px;
+    margin: 0 auto;
+  }
+}
